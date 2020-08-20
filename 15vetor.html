@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> 15 vetor </title>
+
+    <script>
+
+   // Vetor
+
+   let numeros = []
+
+   // Variáveis 
+
+   let indice = 0;
+   let n;
+
+   // Laço 
+
+   do{
+       n = parseInt(prompt("Informe o "+(indice+1)+"º número"))
+
+       if(n !=0){
+           numeros[indice] = n 
+           indice++
+       }
+   }while(n !=0)
+
+   // Exibir
+   for(let i=0; i<numeros.length; i++){
+       document.write("0 "+ (i+1)+" º número informado é "+numeros[i]+"<br>")
+   }
+   
+
+
+
+
+
+      
+    </script>
+    
+</head>
+<body>
+    
+</body>
+</html>

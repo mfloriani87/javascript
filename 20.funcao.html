@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> função </title>
+
+    <script>
+      
+      // Mensagem
+      
+      function mensagem (){
+          alert("OI")
+      }
+    
+      // Exibir Texto
+
+      function exibirTexto(texto){
+          document.getElementById("exibir").innerText = texto
+      }
+
+</script> 
+</head>
+<body>
+    
+    <button onclick="mensagem()">Clique aqui</button>
+
+     <input type="text" onkeyup="exibirTexto(this.value)">
+     <h1 id="exibir"></h1>
+</body>
+</html>

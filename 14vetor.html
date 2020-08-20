@@ -1,0 +1,40 @@
+  
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> 14 - Array </title>
+
+    <script>
+        
+    // Array 
+
+    let cores = ["Azul", "Amarelo", "Vermelho", "Roxo", "Verde"] 
+
+
+    // Adicionar nova
+
+    cores.push("Branco", "Verde", "Laranja") 
+
+    // Alterar cor
+
+    cores[1] = "Rosa"
+
+    // Remover cor
+
+    cores.splice(4 ,1)
+
+    // Exibir
+    for (let indice=0; indice<cores.length; indice++) {
+        document.write(cores[indice]+"<br>")
+
+    }
+    
+    console.log(cores) 
+    </script>
+    
+</head>
+<body>
+    
+</body>
+</html>

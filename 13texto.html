@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>13 - Texto</title>
+
+    <script>
+
+        // Palavra
+        let palavra = "Aprendendo"
+
+        // Maiúsculas e minúsculas
+        document.write(palavra.toUpperCase()+"<br>")
+        document.write(palavra.toLowerCase()+"<br>")
+
+        // Quantidade de caracteres
+        document.write(palavra+" possui "+palavra.length+" caracteres<br>")
+
+        // Manipulando caracteres
+        for(let indice = 0; indice < palavra.length; indice++){
+            document.write(indice+" - "+palavra.charAt(indice)+"<br>")
+        }
+
+        // Cortar partes de um texto
+        document.write(palavra.substr(0, 7)+"<br>")
+        document.write(palavra.substring(0, 4)+"<br>")
+
+        // Iniciar e finalizar
+        document.write(palavra.startsWith("a")+"<br>")
+        document.write(palavra.endsWith("o")+"<br>")
+
+    </script>
+    
+</head>
+<body>
+    
+</body>
+</html>
